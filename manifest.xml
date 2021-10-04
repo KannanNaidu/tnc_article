@@ -12,8 +12,8 @@
         <tags>
             <tag>stable</tag>
         </tags>
-        <infourl title="Module TnC Article Page on GitHub">
-            https://github.com/KannanNaidu/tnc_article/releases/tag/1.0.0
+        <infourl title="Module TnC Article">
+           https://github.com/KannanNaidu/tnc_article/releases/tag/v1.0.0
         </infourl>
         <maintainer>Kannan Naidu Venugopal</maintainer>
         <maintainerurl>https://www.kannannaidu.my</maintainerurl>
