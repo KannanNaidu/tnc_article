@@ -1,15 +1,24 @@
 # Terms & Condition Joomla Module
-Terms and condition article display in a joomla module position
+Terms and condition article display in a joomla module position. This module is for Joomla 3.8.x and above but **NOT** ready for **Joomla 4**.
 
 After installing, select the article to display and enter the button text value. Publish the module. This module will display a button, where upon clicking will display the selected article in a sliding panel.
 
 ## Scripts and Styling
-CSS and JS files are NOT included in this install. 
+CSS and JS files are **NOT** included in this install. 
 
 ## Dependencies
-[TailwindCSS version 2](https://tailwindcss.com/ "TailwindCSS Homepage")
+You need [TailwindCSS](https://tailwindcss.com/ "TailwindCSS Homepage") version 2.0 and above.
 
-[AlpineJS version 3](https://alpinejs.dev/ "AlpineJS Homepage")
+```
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+```
+Before using the CDN build, please note that many of the features that make Tailwind CSS great are not available without incorporating Tailwind into your build process. More info [TailwindCSS Documentation](https://tailwindcss.com/docs/installation/ "TailwindCSS Documentation").
+
+You need [AlpineJS](https://alpinejs.dev/ "AlpineJS Homepage") version 3.0 and above.
+
+```
+<script src="//unpkg.com/alpinejs" defer></script>
+```
 
 ## Disclaimer
 
