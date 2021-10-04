@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.8" client="site" method="upgrade">
+	<name>MOD_TNC_ARTICLE</name>
+	<creationDate>4th October 2021</creationDate>
+	<author>Kannan Naidu Venugopal</author>
+	<authorEmail>kannan.naidu@kannannaidu.my</authorEmail>
+	<authorUrl>https://www.kannannaidu.my</authorUrl>
+	<copyright>Copyright © 2021 Kannan Naidu Venugopal</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0.0</version>
+	<description>MOD_TNC_ARTICLE_XML_DESCRIPTION</description>
+
+	<files>
+		<filename module="mod_tnc_article">mod_tnc_article.php</filename>
+		<folder>tmpl</folder>
+		<folder>language</folder>
+		<filename>helper.php</filename>
+		<filename>mod_tnc_article.xml</filename>
+	</files>
+
+	<!-- Update servers -->
+	<updateservers>
+		<server type="extension" priority="1" name="tnc_article">https://raw.githubusercontent.com/KannanNaidu/tnc_article/master/manifest.xml</server>
+	</updateservers>
+
+	<config>
+		<fields name="params">
+
+			<fieldset name="basic" addfieldpath="/administrator/components/com_content/models/fields">
+
+				<field name="article_id"
+					   type="modal_article"
+					   label="MOD_TNC_ARTICLE_ARTICLE_ID_LABEL"
+					   description="MOD_TNC_ARTICLE_ARTICLE_ID_DESCRIPTION"
+					   select="true"
+					   new="true"
+					   edit="true"
+					   clear="true"
+					   filter="integer"
+				/>
+
+				<field name="button_text"
+					   type="text"
+					   default="Terms &amp; Conditions"
+					   label="MOD_TNC_ARTICLE_BUTTON_TEXT_LABEL"
+					   description=""
+				/>
+
+			</fieldset>
+
+			<fieldset
+					name="advanced">
+
+				<field
+						name="layout"
+						type="modulelayout"
+						label="JFIELD_ALT_LAYOUT_LABEL"
+						description="JFIELD_ALT_MODULE_LAYOUT_DESC"
+						validate="moduleLayout"
+				/>
+
+				<field
+						name="moduleclass_sfx"
+						type="text"
+						label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+						description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>
