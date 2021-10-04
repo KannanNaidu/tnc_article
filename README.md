@@ -1,6 +1,8 @@
 # Terms & Condition Joomla Module
 Terms and condition article display in a joomla module position
 
+After installing, select the article to display and enter the button text value. Publish the module. This module will display a button, where upon clicking will display the selected article in a sliding panel.
+
 ## Dependencies
 [TailwindCSS version 2](https://tailwindcss.com/ "TailwindCSS Homepage")
 
