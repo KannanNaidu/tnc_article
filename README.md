@@ -2,9 +2,9 @@
 Terms and condition article display in a joomla module position
 
 ## Dependencies
-[TailwindCSS Homepage](https://tailwindcss.com/ "TailwindCSS Homepage")
+[TailwindCSS version 2](https://tailwindcss.com/ "TailwindCSS Homepage")
 
-[AlpineJS Homepage](https://alpinejs.dev/ "AlpineJS Homepage")
+[AlpineJS version 3](https://alpinejs.dev/ "AlpineJS Homepage")
 
 ## Disclaimer
 
