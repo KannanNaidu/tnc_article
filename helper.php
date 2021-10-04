@@ -32,9 +32,14 @@ class ModTncArticleHelper
 		$query = $db->getQuery(true);
 		$query->select('*');
 		$query->from($db->quoteName('#__content'));
-		$query->where($db->quoteName('id') . ' = '. (int)$id);
+		$query->where($db->quoteName('id') . ' = '. (int)$article_id);
 		$db->setQuery($query);
 		$item = $db->loadObject();
+
+		if (!$item->id)
+		{
+			return $tnc;
+		}
 
 		$tnc->title = OutputFilter::ampReplace($item->title);
 		$tnc->introtext = $item->introtext;
