@@ -2,7 +2,7 @@
 /**
  * @package    tnc_article
  *
- * @version    1.0.0
+ * @version    1.1.0
  * @author     Kannan Naidu Venugopal <kannan.naidu@kannannaidu.my>
  * @copyright  Copyright (c) 2008 - 2021 Kannan Naidu Venugopal. All rights reserved.
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
