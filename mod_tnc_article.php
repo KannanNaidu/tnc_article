@@ -17,6 +17,7 @@ use Joomla\CMS\Helper\ModuleHelper;
 JLoader::register('ModTncArticleHelper', __DIR__ . '/helper.php');
 
 // Get the services data
+// Use in view $article->title
 $article = (new ModTncArticleHelper)->getDisplay($params->get('article_id'));
 
 // The below line is no longer used in Joomla 4
