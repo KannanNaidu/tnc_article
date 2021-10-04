@@ -20,6 +20,16 @@ You need [AlpineJS](https://alpinejs.dev/ "AlpineJS Homepage") version 3.0 and a
 <script src="//unpkg.com/alpinejs" defer></script>
 ```
 
+If you want to add to your template file, you can do this
+
+```
+use Joomla\CMS\Factory;
+$document = Factory::getDocument();
+
+$document->addStyleSheet("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
+$document->addScript("https://unpkg.com/alpinejs", array(), array('defer'=>'defer'));
+```
+
 ## Disclaimer
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 2 of the License, or (at your option) any later version.
