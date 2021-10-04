@@ -20,7 +20,7 @@
 
 	<!-- Update servers -->
 	<updateservers>
-		<server type="extension" priority="1" name="tnc_article">https://raw.githubusercontent.com/KannanNaidu/tnc_article/master/manifest.xml</server>
+		<server type="extension" priority="1" name="TnC Article">https://raw.githubusercontent.com/KannanNaidu/tnc_article/master/manifest.xml</server>
 	</updateservers>
 
 	<config>
